@@ -48,17 +48,28 @@ int main(){
     // int ans = count_if(arr.begin(),arr.end(),checkEven);
     // cout<<ans<<endl;
 
-    sort(arr.begin(),arr.end());
-    for(int a : arr){
-        cout<<a<<" ";
-    }
+    // sort(arr.begin(),arr.end());
+    // for(int a : arr){
+    //     cout<<a<<" ";
+    // }
 
-    cout<<endl;
+    // cout<<endl;
 
-    reverse(arr.begin(),arr.end());
-    for(int a : arr){
-        cout<<a<<" ";
-    }
+    // reverse(arr.begin(),arr.end());
+    // for(int a : arr){
+    //     cout<<a<<" ";
+    // }
+
+
+
+
+    // int target = 40;
+    // bool it  = binary_search(arr.begin(),arr.end(),target);
+    // cout<<it<<endl; 
+
+    int t = 35;
+    auto it = lower_bound(arr.begin(),arr.end(),t);
+    cout<<*it<<endl;
 
  
     return 0;
