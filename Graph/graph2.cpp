@@ -3,6 +3,8 @@
 #include<unordered_map>
 using namespace std;
 
+
+//weighted graph
 class Graph{
     public:
     unordered_map<int,vector<pair<int,int>>>adjList;
